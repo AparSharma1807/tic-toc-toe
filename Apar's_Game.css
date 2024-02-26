@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(im4.jpg);
+  background-size: cover;
+  
+}
+.ap{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  color:rgb(184, 211, 224);
+}
+.ap h1{
+  font-family: black ops one;
+  font-size: 55px;
+  padding-top: 20px;
+  color: white
+}
+.ap table{
+  box-shadow: 0px 0px 100px aqua;
+  margin-top: 20px;
+}
+td{
+  height: 130px;
+  width: 130px;
+  text-align: center;
+  border: 5px solid black;
+  font-size: 80px
+}
+button{
+  width: 20%;
+  background-color: black;
+  font-size: 35px;
+  color: aliceblue;
+  margin-left: 550px;
+  margin-right: 150px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  border-radius: 30%;
+  font-family: black ops one;
+}
+table{
+  opacity: 0.5;
+  background-color: rgb(51, 53, 52);
+  margin: auto;
+}
+.ins{
+  width: 350px;
+  height: 140px;
+  background-color: rgb(128, 136, 136);
+  margin-top: -200px;
+  margin-left: 950px;
+  font-family: black ops one;
+  font-size: 20px;
+  border-radius: 20%;
+  padding-top: 10px;
+  animation: inst 2s infinite;
+}
+@keyframes inst {
+  0%,100% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+}
+h2{
+  background-color: aqua;
+  width: 15%;
+  margin: auto;
+  color: rgb(104, 103, 103);
+  border-radius: 20%;
+  padding: 5px;
+}
